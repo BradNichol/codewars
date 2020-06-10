@@ -21,11 +21,7 @@ function iqTest(numbers) {
     // count each of different types
     let odd = 0, even = 0;
     numArr.forEach((n) => {
-        if (n % 2 === 0) {
-            even++;
-        } else {
-            odd++;
-        }
+        n % 2 === 0 ? even++ : odd++;
     })
 
     // find the odd number out

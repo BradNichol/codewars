@@ -1,0 +1,19 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "Codewars challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradNichol/codewars.git"
+  },
+  "author": "Brad Nichol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradNichol/codewars/issues"
+  },
+  "homepage": "https://github.com/BradNichol/codewars#readme"
+}

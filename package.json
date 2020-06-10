@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BradNichol/codewars/issues"
   },
-  "homepage": "https://github.com/BradNichol/codewars#readme"
+  "homepage": "https://github.com/BradNichol/codewars#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }

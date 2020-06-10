@@ -1,9 +1,19 @@
 // Codewars Challenges
 
+/**
+ * 
+ * @param {String} str 
+ */
+
 function reverseWords(str) {
   const arr = str.split(" ").map((i) => i.split("").reverse().join(""));
   return arr.join(" ");
 }
+
+/**
+ * 
+ * @param {String} str 
+ */
 
 function toJadenCase(str) {
   // split string into array
@@ -11,6 +21,12 @@ function toJadenCase(str) {
   // loop through array & capitalise each char at start of string
   return arr.map((word) => word[0].toUpperCase() + word.slice(1)).join(" ");
 }
+
+
+/**
+ * 
+ * @param {Number} numbers 
+ */
 
 function iqTest(numbers) {
   // get numbers into array & convert to int
@@ -32,6 +48,12 @@ function iqTest(numbers) {
     return numArr.indexOf(findEvenNum[0]) + 1;
   }
 }
+
+
+/**
+ * 
+ * @param {String} string 
+ */
 
 function isPangram(string) {
   // turn string into array
